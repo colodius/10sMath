@@ -1,0 +1,18 @@
+h2 {
+    color: blue;
+}
+
+#time-left {
+    color: red;
+    font-size: 20px;
+}
+
+#highScore {
+    font-size: 40px;
+    color: green;
+}
+
+.chkBox {
+    scale: 3;
+    margin-left: 10px;
+}

@@ -1,0 +1,35 @@
+<!--index.html-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>10 Seconds Maths Game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-8">
+          <h2>10 Sec Maths Game</h2>
+          <span>Choose math problems: </span>
+          <span class="chkBox"><input type="checkbox" id="plusChecked" checked> + </span>
+          <span class="chkBox"><input type="checkbox" id="minusChecked"> - </span>
+          <span class="chkBox"><input type="checkbox" id="mulChecked"> x </span>
+          <span class="chkBox"><input type="checkbox" id="divChecked"> % </span><br>
+          <span id="time-left"></span><span> second(s) left</span>
+          <h1 id="equation"></h1>
+          <input id="answerInput" type="number" />
+          <h4>Score: <span id="score"></span></h4>
+        </div>
+        <div class="col-xs-4">
+            <h3>Highscore: </h3>
+            <div id="highScore"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
