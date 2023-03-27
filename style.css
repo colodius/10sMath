@@ -11,8 +11,12 @@ h2 {
     font-size: 40px;
     color: green;
 }
+#answerPrompt {
+    margin-left: 10px;
+    color: green;
+}
 
 .chkBox {
-    scale: 3;
     margin-left: 10px;
+    font-size: 20px;
 }
